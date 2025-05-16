@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - WIDM</title>
+  <style>
+    /* RESET & BASE */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #222;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* LOADER */
+    #loader {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: white url('https://i.gifer.com/YCZH.gif') no-repeat center;
+      z-index: 9999;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background-color: #02457A;
+      color: white;
+      padding: 1rem 1.5rem;
+    }
+
+    .navbar .logo {
+      font-size: 1.8rem;
+      font-weight: 900;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .navbar ul li a:hover,
+    .navbar ul li a.active {
+      color: #f36f21;
+    }
+
+    /* MAIN CONTENT */
+    main {
+      flex: 1;
+      padding: 2rem 1.5rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 2rem;
+    }
+
+    .feature-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .feature-card h2 {
+      color: #02457A;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    .feature-card h3 {
+      color: #28a745;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .feature-card ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .feature-card p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1.75rem 1rem;
+      color: #666;
+      border-top: 1px solid #eee;
+      background-color: #fafafa;
+      margin-top: auto;
+    }
+
+    /* RESPONSIVE LAYOUT */
+    @media (min-width: 768px) {
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .navbar ul {
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="loader"></div>
+
+  <nav class="navbar">
+    <div class="logo">Website Information & Digital Management</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="features-grid">
+      <div class="feature-card">
+        <h2>Our Solution For Your Business</h2>
+        <div class="image-container">
+         
+        </div>
+        <p>We offer a holistic solution to help your small-to-medium business to grow its presence online through strategic website design, domain hosting optimized for Google, and digital marketing and data analytics services.</p>
+        <h3>Benefits of having a company website:</h3>
+        <ul>
+          <li>Having a website will add new customers to your business - your website is working for you 24/7/365.</li>
+          <li>Provide a presence in the digital space for your ideal clients - they expect you to be there.</li>
+          <li>Project instant credibility for your business simply by having a website - it's not as hard, or as expensive, as you think - it's a legitimate business expense that will deliver.</li>
+          <li>Allows you to position yourself and stay in control of your brand and messaging.</li>
+          <li>Having a website will save you time with FAQs answered on the website.</li>
+        </ul>
+        <div class="image-container">
+        
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <h2>Website Development</h2>
+        <div class="image-container">
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXlyYXJibmFpNTI3YWhqanQwMnp5and6ajJiaGZvZmx2M3pjZG9tYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/R8PARze9Q6OgAEKsD2/giphy.gif" alt="Website Development" />
+        </div>
+        <h3>We Offer:</h3>
+        <ul>
+          <li>Build you a website that places your business on Google.</li>
+          <li>Enable Search Engine Optimization for your business services to be found by your ideal clients.</li>
+          <li>An easily navigated website that guides customers to the information they are looking for.</li>
+          <li>A professionally designed company history.</li>
+          <li>Services offered by your company.</li>
+          <li>Products sold by your company + product updates.</li>
+          <li>Price of services and products.</li>
+          <li>Customer interaction platforms.</li>
+          <li>Quality content (photos, graphics and video).</li>
+          <li>Contact information.</li>
+          <li>FAQs.</li>
+          <li>Upload documents.</li>
+          <li>Website Maintenance.</li>
+        </ul>
+        <div class="image-container">
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTZoNjF2a3gzcGN2MWsyNm1zY3F5NWd2YXYzbmZzczBubGlsN3ZhYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tn33aiTi1jkl6H6/giphy.gif" alt="Website Structure" />
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <h2>Information & Analytics</h2>
+        <div class="image-container">
+          <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW8zeGcwemkzMzh2Y2d3OGlhbnRxdjA0ZGl6OThhZXZ2dnFvM29ycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JrXas5ecb4FkwbFpIE/giphy.gif" alt="Information & Analytics" />
+        </div>
+        <h3>Purpose: Ensuring that your business has the information it needs to develop a marketing strategy that focuses on providing your services as being better suited to consumer needs.</h3>
+        <ul>
+          <li><b>Analytics and Reporting:</b> Part of being on social media involves knowing how far posts are going, so levels of engagement and reach are vitally important.</li>
+          <li><b>Data Analytics:</b> Which empowers digital marketing for your business to gain information-driven results about your products, services and product expanding, and more.</li>
+          <li><b>Big Data and Advanced data analysis:</b> enables your business to make better decisions about the best services to current and prospective customers.</li>
+          <li><b>Provide Data Analytics:</b> an essential tool in the modern digital space for all businesses.</li>
+        </ul>
+        <div class="image-container">
+          <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW8zeGcwemkzMzh2Y2d3OGlhbnRxdjA0ZGl6OThhZXZ2dnFvM29ycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JrXas5ecb4FkwbFpIE/giphy.gif" alt="Data Insights" />
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <h2>Domain Hosting</h2>
+        <div class="image-container">
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmtmYXBraTA3a2xibXJ6ejgzNDRsZnE5cWdpeDM0YnVlemRzZzlrYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/b2mD3eIT96j84UIdhX/giphy.gif" alt="Domain Hosting" />
+        </div>
+        <ul>
+          <li>Host your company name via our internet service that manages your domain name.</li>
+          <li>Register your business' domain name; this serves as your business's address.</li>
+          <li>Professional email accounts for contact and staff (e.g., <a href="mailto:info@yourbusiness.co.za">info@yourbusiness.co.za</a>).</li>
+          <li>Outlook email setup.</li>
+        </ul>
+        <div class="image-container">
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmtmYXBraTA3a2xibXJ6ejgzNDRsZnE5cWdpeDM0YnVlemRzZzlrYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/b2mD3eIT96j84UIdhX/giphy.gif" alt="Domain Management" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+   <footer>&copy;Powered by WIDM pty ltd.</footer>
+  </footer>
+
+  <script>
+    window.addEventListener("load", function() {
+      setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+      }, 1500); // Loader stays for at least 1.5 seconds
+    });
+  </script>
+</body>
+</html>
