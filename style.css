@@ -17,7 +17,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #02457A;
+  background-color: #f78000;
   color: white;
   padding: 1rem 1.5rem;
 }
@@ -111,7 +111,7 @@ main {
 
 /* SECTION HEADINGS */
 section h2 {
-  color: #02457A;
+  color: #7a5c02;
   margin-bottom: 1rem;
   font-weight: 700;
   font-size: 1.8rem;
@@ -205,9 +205,29 @@ footer {
   z-index: 9999;
 }
 
-/* RESPONSIVE LAYOUT */
+/* ICON STYLING FOR FONTAWESOME */
+.contact-method i {
+  font-size: 1.5rem;
+  color: #25D366; /* WhatsApp green */
+  margin-right: 0.5rem;
+}
 
-/* >= Tablet & Desktop */
+.contact-method i.fa-envelope {
+  color: #c23a2b; /* Gmail red */
+}
+
+/* CONTACT INFO */
+.contact-info {
+  margin-top: 2rem;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* RESPONSIVE LAYOUT */
 @media (min-width: 768px) {
   .navbar {
     display: flex;
@@ -236,9 +256,9 @@ footer {
   .hero h1 {
     font-size: 3.5rem;
   }
-  .tech-animation {
-  opacity: 1 !important;
-  animation: none !important;
-}
 
+  .tech-animation {
+    opacity: 1 !important;
+    animation: none !important;
+  }
 }
