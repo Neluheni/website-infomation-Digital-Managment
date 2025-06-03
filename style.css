@@ -17,7 +17,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #0021f7;
+  background-color: #1d2975;
   color: white;
   padding: 1rem 1.5rem;
 }
@@ -111,7 +111,7 @@ main {
 
 /* SECTION HEADINGS */
 section h2 {
-  color: #7a5c02;
+  color: #000000;
   margin-bottom: 1rem;
   font-weight: 700;
   font-size: 1.8rem;
