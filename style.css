@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f78000; /* orange background */
+  background-color: #fff;
   color: #222;
   line-height: 1.6;
   min-height: 100vh;
@@ -148,7 +148,7 @@ p, li {
 
 .tabs button {
   flex: 1 1 45%;
-  background-color: #fefefe;
+  background-color: #f36f21;
   color: white;
   border: none;
   padding: 0.65rem 1.1rem;
@@ -261,4 +261,4 @@ footer {
     opacity: 1 !important;
     animation: none !important;
   }
-}
+} make orage bagrand 
