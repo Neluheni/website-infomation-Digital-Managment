@@ -17,7 +17,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #1d2975;
+  background-color: #081250;
   color: white;
   padding: 1rem 1.5rem;
 }
@@ -169,10 +169,10 @@ p, li {
 /* TAB CONTENT */
 .tab-content {
   display: none;
-  background-color: #fefefe;
+  background-color: #ff9d00;
   padding: 1rem 1.25rem;
   margin-top: 1.25rem;
-  border-left: 5px solid #f36f21;
+  border-left: 5px solid #ff9d00;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
   color: #222;
@@ -262,5 +262,3 @@ footer {
     animation: none !important;
   }
 } 
-
-
