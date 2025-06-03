@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff;
+  background-color: #f78000; /* orange background */
   color: #222;
   line-height: 1.6;
   min-height: 100vh;
