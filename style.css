@@ -17,7 +17,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #f78000;
+  background-color: #007bff; /* changed from orange */
   color: white;
   padding: 1rem 1.5rem;
 }
@@ -25,6 +25,7 @@ body {
 .navbar .logo {
   font-size: 1.8rem;
   font-weight: 900;
+  color: #f78000; /* logo remains orange */
 }
 
 .navbar ul {
@@ -44,7 +45,7 @@ body {
 }
 
 .navbar ul li a:hover {
-  color: #f36f21;
+  color: #339af0;
 }
 
 /* MAIN CONTENT */
@@ -69,7 +70,7 @@ main {
 }
 
 .hero .tagline {
-  color: #f36f21;
+  color: #339af0; /* changed from orange */
   font-weight: 700;
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -111,7 +112,7 @@ main {
 
 /* SECTION HEADINGS */
 section h2 {
-  color: #7a5c02;
+  color: #054f8c; /* dark blue */
   margin-bottom: 1rem;
   font-weight: 700;
   font-size: 1.8rem;
@@ -148,7 +149,7 @@ p, li {
 
 .tabs button {
   flex: 1 1 45%;
-  background-color: #f36f21;
+  background-color: #007bff; /* blue */
   color: white;
   border: none;
   padding: 0.65rem 1.1rem;
@@ -157,12 +158,12 @@ p, li {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.25s ease;
-  box-shadow: 0 3px 6px rgba(243,111,33,0.3);
+  box-shadow: 0 3px 6px rgba(0, 123, 255, 0.3);
 }
 
 .tabs button:hover,
 .tabs button:focus {
-  background-color: #d35400;
+  background-color: #0056b3;
   outline: none;
 }
 
@@ -172,7 +173,7 @@ p, li {
   background-color: #fefefe;
   padding: 1rem 1.25rem;
   margin-top: 1.25rem;
-  border-left: 5px solid #f36f21;
+  border-left: 5px solid #007bff; /* blue */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
   color: #222;
@@ -261,4 +262,4 @@ footer {
     opacity: 1 !important;
     animation: none !important;
   }
-} make orage bagrand 
+}
